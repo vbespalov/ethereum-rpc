@@ -1,5 +1,5 @@
 {
-  "name": "furqansiddiqui/ethereum-rpc",
+  "name": "maxbitsolution/ethereum-rpc",
   "type": "library",
   "description": "Ethereum (geth) RPC client",
   "keywords": [
@@ -10,10 +10,10 @@
   ],
   "license": "MIT",
   "require": {
-    "php": "^7.1.0",
+    "php": "^7.2.5 || ^8.0",
     "ext-bcmath": "*",
     "ext-json": "*",
-    "furqansiddiqui/http-client": "^0.4.5"
+    "maxbitsolution/http-client": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -21,6 +21,5 @@
         "src"
       ]
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
