@@ -44,8 +44,8 @@ class Block
     public $miner;
     /** @var string */
     public $difficulty;
-    /** @var string */
-    public $totalDifficulty;
+    /** @var string|null */
+    public $totalDifficulty = null;
     /** @var string */
     public $extraData;
     /** @var string */
@@ -96,7 +96,6 @@ class Block
             "receiptsRoot",
             "miner",
             "difficulty",
-            "totalDifficulty",
             "extraData",
             "size",
             "gasLimit",
