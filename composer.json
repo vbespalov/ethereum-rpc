@@ -13,7 +13,7 @@
     "php": "^7.2.5 || ^8.0",
     "ext-bcmath": "*",
     "ext-json": "*",
-    "maxbitsolution/http-client": "^1.0"
+    "vbespalov/http-client": "^1.0"
   },
   "autoload": {
     "psr-4": {
